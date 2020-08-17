@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="loginAnchor" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="520.0" prefWidth="840.0" spacing="20.0" styleClass="loginAnchor" stylesheets="@css/login.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Prequals.LoginController">
+   <children>
+      <AnchorPane id="loginPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="360.0" prefWidth="320.0" styleClass="loginJesus" stylesheets="@css/login.css">
+         <children>
+            <Label alignment="CENTER" graphicTextGap="3.0" layoutX="114.0" layoutY="25.0" prefHeight="54.0" prefWidth="93.0" text="LOGIN">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="username" layoutX="44.0" layoutY="87.0" prefHeight="34.0" prefWidth="233.0" promptText="username" />
+            <JFXPasswordField fx:id="password" layoutX="44.0" layoutY="146.0" prefHeight="34.0" prefWidth="233.0" promptText="password" />
+            <JFXButton fx:id="login" buttonType="RAISED" layoutX="110.0" layoutY="211.0" prefHeight="44.0" prefWidth="109.0" ripplerFill="#4059a9" styleClass="loginButton" stylesheets="@css/login.css" text="LOGIN" textOverrun="CENTER_ELLIPSIS" />
+            <Label fx:id="regHere" layoutX="42.0" layoutY="281.0" text="dont have an account? register here" />
+            <Label fx:id="forgotPass" layoutX="108.0" layoutY="310.0" text="forgot password?" />
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

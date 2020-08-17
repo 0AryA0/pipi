@@ -1,0 +1,15 @@
+.regBox {
+    -fx-background-image: url("../images/image_register.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+
+.registerJesus {
+    -fx-background-color: rgba(200, 165, 231, 0.4);
+}
+
+.registerButton {
+
+    -fx-border-color: #4059a9;
+    -fx-border-width: 2;
+}

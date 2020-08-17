@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1020.0" styleClass="tic" stylesheets="@css/login.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AfterLogin.Games.TicTacToe.TicTacToeMultiplayer">
+    <children>
+        <AnchorPane layoutX="321.0" layoutY="29.0" prefHeight="371.0" prefWidth="378.0" styleClass="innerTic">
+            <children>
+                <JFXButton fx:id="b11" layoutX="40.0" layoutY="40.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="b12" layoutX="150.0" layoutY="40.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="b13" layoutX="260.0" layoutY="40.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="b21" layoutX="40.0" layoutY="150.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="b22" layoutX="150.0" layoutY="150.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="b23" layoutX="260.0" layoutY="150.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="b31" layoutX="40.0" layoutY="260.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css" text="Button">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="b32" layoutX="150.0" layoutY="260.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="b33" layoutX="260.0" layoutY="260.0" prefHeight="75.0" prefWidth="75.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </JFXButton>
+            </children>
+        </AnchorPane>
+        <JFXButton fx:id="exit" alignment="TOP_LEFT" layoutX="201.0" layoutY="29.0" prefHeight="46.0" prefWidth="108.0" text="EXIT" textFill="WHITE">
+            <graphic>
+                <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/exit.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+      <JFXListView fx:id="messages" layoutX="324.0" layoutY="418.0" prefHeight="210.0" prefWidth="372.0" />
+      <JFXTextField fx:id="message" layoutX="343.0" layoutY="637.0" prefHeight="26.0" prefWidth="273.0" />
+      <JFXButton fx:id="send" layoutX="632.0" layoutY="637.0" prefHeight="26.0" prefWidth="55.0" text="SEND" textFill="WHITE" />
+    </children>
+</AnchorPane>

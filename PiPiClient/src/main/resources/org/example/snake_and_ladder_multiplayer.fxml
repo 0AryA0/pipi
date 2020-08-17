@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1020.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AfterLogin.Games.SnakeAndLadder.SnakeAndLadderMultiplayer">
+    <children>
+        <AnchorPane fx:id="game_board" layoutY="-3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0">
+            <children>
+                <ImageView fitHeight="786.0" fitWidth="721.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/snakeLadder.jpg" />
+                    </image>
+                </ImageView>
+            </children></AnchorPane>
+        <AnchorPane fx:id="info" layoutX="720.0" prefHeight="720.0" prefWidth="300.0">
+            <children>
+                <JFXButton fx:id="start" layoutX="36.0" layoutY="656.0" text="ROLL" />
+                <JFXListView fx:id="leaderBoard" layoutX="18.0" layoutY="11.0" prefHeight="332.0" prefWidth="264.0" />
+            <AnchorPane layoutX="18.0" layoutY="352.0" prefHeight="271.0" prefWidth="264.0">
+               <children>
+                  <JFXListView fx:id="messages" prefHeight="230.0" prefWidth="264.0" />
+                  <JFXTextField fx:id="message" layoutX="14.0" layoutY="230.0" prefHeight="26.0" prefWidth="175.0" />
+                  <JFXButton fx:id="send" layoutX="200.0" layoutY="237.0" text="SEND" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="dicePane" layoutX="115.0" layoutY="637.0" prefHeight="64.0" prefWidth="70.0" />
+            <JFXButton fx:id="exit" layoutX="215.0" layoutY="656.0" text="EXIT" />
+            </children></AnchorPane>
+    </children>
+</AnchorPane>

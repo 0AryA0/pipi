@@ -1,0 +1,64 @@
+.loginAnchor {
+    -fx-background-image: url("../images/image_login.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+.addFriend {
+    -fx-background-image: url("../images/add_friend_anchor.jpg");
+
+}
+
+.profile {
+    -fx-background-image: url("../images/profile.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+.innerProfile {
+    -fx-background-color: rgba(59, 92, 188, 0.36);
+}
+
+.addFriendAnchor {
+    -fx-background-color: #da9cef;
+    -fx-stroke-width: 2px;
+    -fx-stroke: #8237a5;
+}
+
+.tic {
+    -fx-background-image: url("../images/tic.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+
+.innerTic {
+    -fx-background-color: rgba(32, 56, 121, 0.24);
+
+}
+
+
+.loginJesus {
+    -fx-background-color: rgba(243, 166, 81, 0.7);
+}
+
+.loginButton {
+    -fx-border-color: #4059a9;
+    -fx-border-width: 2;
+}
+
+.forgotAnchor {
+    -fx-background-image: url("../images/image_forgot.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+
+.forgotJesus {
+    -fx-background-color: rgba(161, 246, 255, 0.44);
+
+}
+
+.main {
+    -fx-background-color: #fdd998;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+}
+
+

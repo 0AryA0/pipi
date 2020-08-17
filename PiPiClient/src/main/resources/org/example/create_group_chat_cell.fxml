@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="200.0" stylesheets="@css/buttons.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="pane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="45.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="image" fitHeight="97.0" fitWidth="88.0" layoutX="-21.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" styleClass="animated-add-button2" />
+            <AnchorPane layoutX="62.0" prefHeight="47.0" prefWidth="140.0">
+               <children>
+                  <Label fx:id="name" contentDisplay="CENTER" layoutX="4.0" layoutY="7.0" prefHeight="34.0" prefWidth="133.0" text="Label" textAlignment="CENTER">
+                     <font>
+                        <Font name="Ubuntu" size="20.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

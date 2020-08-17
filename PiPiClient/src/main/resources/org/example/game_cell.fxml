@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="image" fitHeight="313.0" fitWidth="823.0" layoutX="-44.0" layoutY="-18.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutX="154.0" layoutY="62.0" prefHeight="127.0" prefWidth="411.0" style="-fx-background-color: ffffff;">
+         <children>
+            <JFXButton fx:id="play" layoutX="148.0" layoutY="64.0" prefHeight="51.0" prefWidth="117.0" text="PLAY" />
+            <Label fx:id="game_name" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="51.0" prefWidth="384.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

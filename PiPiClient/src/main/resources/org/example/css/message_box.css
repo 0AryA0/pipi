@@ -1,0 +1,138 @@
+.messages {
+    -fx-background-insets: -5 -10 -5 -5;
+    -fx-shape: "M 94.658379,129.18587 H 46.277427 c -3.545458,0.23354 -5.32763,-1.59167 -5.14193,-4.67449 v -19.39913 c 0.405797,-3.73565 2.470637,-4.56641 5.14193,-4.90821 h 43.706464 c 2.572701,0.2361 4.604321, 1.68288 4.674488,4.90821 v 19.39913 c 0.436089,3.14572 2.890695,3.57304 4.908212,4.67449 z";
+    -fx-background-color: #e3a4f6;
+    -fx-label-padding: inherit;
+    -fx-border-insets: inherit;
+    -fx-font-size: 16;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
+
+.friend {
+    -fx-shape: "m 46.030545,129.18592 h 48.380952 c 3.54546,0.23355 5.32763,-1.59167 5.14193,-4.67449 V 105.1123 c -0.4058,-3.73565 -2.47064,-4.56641 -5.14193,-4.90821 H 50.705033 c -2.572701,0.2361 -4.604321,1.68288 -4.674488,4.90821 v 19.39913 c -0.436089,3.14572 -2.890695,3.57304 -4.908212,4.67449 z";
+    -fx-background-insets: -5 -10 -5 -5;
+    -fx-background-color: #67cdb2;
+    -fx-font-size: 16;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
+
+.chat-bubble {
+    -fx-background-color: black, white;
+    -fx-background-insets: 0,1;
+    -fx-padding: 50;
+}
+
+.vBox {
+    -fx-background-color: #c6426e;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;}
+
+.messagesPane {
+    -fx-background-image: url("../images/chat_back.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+.vBox2 {
+    -fx-background-color: transparent;
+}
+
+
+.scroll-bar:vertical > .track-background, .scroll-bar:horizontal > .track-background {
+    -fx-background-color: #c6426e;
+    -fx-background-insets: 0.0;
+}
+
+.scroll-bar:vertical > .thumb, .scroll-bar:horizontal > .thumb {
+    -fx-background-color: #BCBCBC;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 1.0;
+}
+
+
+
+
+.scroll-bar:vertical > .increment-button, .scroll-bar:vertical > .decrement-button {
+    -fx-padding: 5 2 5 2;
+}
+
+.scroll-bar:horizontal > .increment-button, .scroll-bar:horizontal > .decrement-button {
+    -fx-background-color: #c6426e;
+    -fx-padding: 2 5 2 5;
+}
+
+
+
+.scroll-bar > .increment-button, .scroll-bar > .decrement-button, .scroll-bar:hover > .increment-button, .scroll-bar:hover > .decrement-button {
+
+    -fx-background-color: transparent;
+}
+
+.scroll-bar > .increment-button > .increment-arrow, .scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: rgb(150.0, 150.0, 150.0);
+}
+
+
+
+/* Up Arrow */
+
+.scroll-bar:vertical > .increment-button > .increment-arrow {
+    -fx-shape: "M298 426h428l-214 214z";
+}
+
+
+.scroll-bar:vertical > .decrement-button > .decrement-arrow {
+    -fx-shape: "M298 598l214-214 214 214h-428z";
+}
+
+
+.scroll-bar:horizontal > .increment-button > .increment-arrow {
+    -fx-shape: "M0 428l0 -428l214 214l-214 214z";
+}
+
+.scroll-bar:horizontal > .decrement-button > .decrement-arrow {
+    -fx-shape: "M214 0l0 428l-214 -214l214 -214z";
+}
+
+
+
+
+/*******************************************************************************
+ *                                                                             *
+ * Scroll Pane			                                                       *
+ *                                                                             *
+ ******************************************************************************/
+
+.scroll-pane {
+    -fx-background-color: linear-gradient(to right, #642b73, #c6426e);
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+.list-cell {
+    -fx-background-color: transparent;
+}
+.list-view {
+    -fx-background-color: transparent;
+}
+.list-view > .list-cell {
+    -fx-background-color: transparent;
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/OpenSansEmoji.ttf');
+}
+
+.text {
+    -fx-font-family: "Roboto";
+}

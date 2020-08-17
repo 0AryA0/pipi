@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1020.0" styleClass="tic" stylesheets="@css/login.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AfterLogin.Games.TicTacToe.TicTacToeSingle">
+   <children>
+      <AnchorPane layoutX="260.0" layoutY="110.0" prefHeight="500.0" prefWidth="500.0" styleClass="innerTic">
+         <children>
+            <JFXButton fx:id="b11" layoutX="40.0" layoutY="40.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b12" layoutX="200.0" layoutY="40.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css" text="Button">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b13" layoutX="360.0" layoutY="40.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b21" layoutX="40.0" layoutY="200.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b22" layoutX="200.0" layoutY="200.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b23" layoutX="360.0" layoutY="200.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b31" layoutX="40.0" layoutY="360.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b32" layoutX="200.0" layoutY="360.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="b33" layoutX="360.0" layoutY="360.0" prefHeight="100.0" prefWidth="100.0" styleClass="ticBtn" stylesheets="@css/buttons.css">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="back" alignment="TOP_LEFT" layoutX="260.0" layoutY="40.0" prefHeight="60.0" prefWidth="147.0" text="BACK" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="restart" layoutX="613.0" layoutY="40.0" prefHeight="60.0" prefWidth="147.0" text="RESTART" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/restart.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

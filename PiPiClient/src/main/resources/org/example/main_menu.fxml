@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXNodesList?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1000.0" stylesheets="@css/login.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AfterLogin.MainMenuController">
+   <children>
+      <VBox fx:id="side_box" maxWidth="350.0" prefHeight="720.0" prefWidth="269.0" styleClass="vbox" stylesheets="@css/list_view.css">
+         <children>
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="76.0" prefWidth="269.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label alignment="CENTER" layoutX="71.0" layoutY="23.0" prefHeight="32.0" prefWidth="128.0" text="CHATS" textFill="WHITE" textOverrun="CLIP">
+                     <font>
+                        <Font name="Montserrat Regular" size="22.0" />
+                     </font>
+                  </Label>
+                  <JFXHamburger fx:id="hamburger" layoutX="14.0" layoutY="29.0" />
+               </children>
+            </AnchorPane>
+            <Separator opacity="0.15" prefWidth="200.0" />
+            <AnchorPane prefHeight="650.0" prefWidth="269.0">
+               <children>
+                  <JFXListView fx:id="listView" fixedCellSize="75.0" layoutY="-2.0" prefHeight="565.0" prefWidth="269.0" styleClass="jfx-list-view" stylesheets="@css/list_view.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                  <AnchorPane layoutX="12.0" layoutY="546.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="90.0" prefWidth="4.0">
+                     <children>
+                        <JFXNodesList fx:id="nodes_list" layoutX="153.0" layoutY="-8.0" prefHeight="105.0" prefWidth="94.0" viewOrder="1.0">
+                           <children>
+                              <JFXButton fx:id="add" alignment="CENTER" contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" prefHeight="89.0" prefWidth="91.0" styleClass="animated-add-button2" stylesheets="@css/buttons.css" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" wrapText="true">
+                                 <effect>
+                                    <GaussianBlur />
+                                 </effect>
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="75.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" styleClass="animated-add-button2">
+                                       <image>
+                                          <Image url="@images/plus.png" />
+                                       </image></ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton fx:id="play_game" alignment="CENTER" contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" styleClass="animated-add-button2" stylesheets="@css/buttons.css" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" wrapText="true">
+                                 <effect>
+                                    <GaussianBlur />
+                                 </effect>
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="68.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/game.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton fx:id="add_friend" alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" styleClass="animated-add-button2" stylesheets="@css/buttons.css" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" wrapText="true">
+                                 <effect>
+                                    <GaussianBlur />
+                                 </effect>
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/add_friend.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton fx:id="add_group" alignment="CENTER" contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" styleClass="animated-add-button2" stylesheets="@css/buttons.css" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" wrapText="true">
+                                 <effect>
+                                    <GaussianBlur />
+                                 </effect>
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/add_group.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                              <JFXButton fx:id="toggle" alignment="CENTER" contentDisplay="TOP" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="75.0" styleClass="animated-add-button2" stylesheets="@css/buttons.css" textAlignment="CENTER" textOverrun="LEADING_ELLIPSIS" wrapText="true">
+                                 <effect>
+                                    <GaussianBlur />
+                                 </effect>
+                                 <font>
+                                    <Font size="29.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="68.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@images/change.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </JFXButton>
+                           </children>
+                        </JFXNodesList>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <!--styleClass="main" stylesheets="@css/login.css"-->
+      <VBox fx:id="chat_box" layoutX="269.0" prefHeight="720.0" prefWidth="750.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="269.0" AnchorPane.rightAnchor="-19.0" AnchorPane.topAnchor="0.0" />
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="240.0" layoutX="1.0" layoutY="79.0" prefHeight="641.0" prefWidth="0.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="720.0" prefWidth="1020.0" styleClass="profile" stylesheets="@css/login.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AfterLogin.ProfileController">
+   <children>
+      <AnchorPane layoutX="269.0" layoutY="208.0" prefHeight="305.0" prefWidth="482.0" styleClass="innerProfile">
+         <children>
+            <Label layoutX="40.0" layoutY="40.0" prefHeight="43.0" prefWidth="218.0" text="SINGLE PLAYER WINS :" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="100.0" prefHeight="50.0" prefWidth="218.0" text="SINGLE PLAYER LOSES :" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="160.0" prefHeight="43.0" prefWidth="218.0" text="MULTIPLAYER WINS :" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="220.0" prefHeight="43.0" prefWidth="218.0" text="MULTIPLAYER LOSES :" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="solo_win" layoutX="258.0" layoutY="40.0" prefHeight="43.0" prefWidth="176.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="solo_lose" layoutX="258.0" layoutY="104.0" prefHeight="43.0" prefWidth="176.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="multi_win" layoutX="258.0" layoutY="160.0" prefHeight="43.0" prefWidth="176.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="multi_lose" layoutX="258.0" layoutY="220.0" prefHeight="43.0" prefWidth="176.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="back" alignment="TOP_LEFT" layoutX="105.0" layoutY="83.0" prefHeight="60.0" prefWidth="119.0" text="BACK">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+.animated-add-button {
+    -fx-shape:  "M 250 300 A 50 50 0 1 1 550 200 A 50 50 0 1 1 250 300 ";
+    -fx-background-image: url("../images/plus.png");
+}
+
+.send-button {
+    -fx-shape:  "M 250 300 A 50 50 0 1 1 550 200 A 50 50 0 1 1 250 300 ";
+    -fx-background-image: url("../images/send.png");
+}
+
+.animated-add-button2 {
+    -fx-shape:  "M 250 300 A 50 50 0 1 1 550 200 A 50 50 0 1 1 250 300 ";
+}
+
+.list_group .scroll-bar:vertical , .jfx-list-view .scroll-bar:horizontal{
+    -fx-scale-x: 0;
+    -fx-padding: -10;
+    -fx-opacity: 0;
+}
+
+.list_group {
+    -fx-background-insets: 0;
+    -fx-pref-width: 200;
+    -fx-background-color: #602080;
+}
+
+.ticBtn {
+    -fx-border-width: 2;
+    -fx-border-color: whitesmoke;
+}
